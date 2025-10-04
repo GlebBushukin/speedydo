@@ -8,7 +8,8 @@
     "start": "node dist/main.js",
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --project tsconfig.json --noEmit",
-    "test": "jest"
+    "test": "jest",
+    "mutate": "stryker run"
   },
   "dependencies": {
     "axios": "^1.12.2",
@@ -23,6 +24,9 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@stryker-mutator/core": "^9.2.0",
+    "@stryker-mutator/jest-runner": "^9.2.0",
+    "@stryker-mutator/typescript-checker": "^9.2.0",
     "@types/bcrypt": "^6.0.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",

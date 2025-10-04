@@ -31,6 +31,10 @@
       "dependsOn": ["^test"],
       "outputs": []
     },
+    "mutate": {
+      "dependsOn": ["^mutate"],
+      "outputs": []
+    },
     "dev": {
       "cache": false,
       "persistent": true
