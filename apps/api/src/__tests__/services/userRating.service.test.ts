@@ -1,3 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+// TODO: после реализации UserRatingService удалить коментарии выше
+
 import { Types } from 'mongoose';
 import { UserRating } from '../../models/UserRating.model';
 // TODO: после реализации UserRatingService раскомментировать import ниже

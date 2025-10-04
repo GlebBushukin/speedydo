@@ -1,3 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+// TODO: после реализации ChapterAccessControlService удалить коментарии выше
+
 import { Types } from 'mongoose';
 import { ChapterAccessControl } from '../../models/ChapterAccessControl.model';
 // TODO: после реализации ChapterAccessControlService раскомментировать import ниже

@@ -1,3 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+// TODO: после реализации LevelAccessControlService удалить коментарии выше
+
 import { Types } from 'mongoose';
 import { LevelAccessControl } from '../../models/LevelAccessControl.model';
 // TODO: после реализации LevelAccessControlService раскомментировать import ниже

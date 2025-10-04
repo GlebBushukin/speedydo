@@ -1,3 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+// TODO: после реализации SuccessConditionService удалить коментарии выше
+
 import { Types } from 'mongoose';
 import { SuccessCondition } from '../../models/SuccessCondition.model';
 // TODO: после реализации SuccessConditionService раскомментировать import ниже

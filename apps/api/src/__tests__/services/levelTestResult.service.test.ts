@@ -1,3 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+// TODO: после реализации LevelTestResultService удалить коментарии выше
+
 import { Types } from 'mongoose';
 import { LevelTestResult } from '../../models/LevelTestResult.model';
 // TODO: после реализации LevelTestResultService раскомментировать import ниже
